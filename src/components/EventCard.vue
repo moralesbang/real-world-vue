@@ -1,16 +1,14 @@
 <template>
-  <div>
-    <h4>{{ title }}</h4>
-  </div>
+  <router-link :to="{ name: 'event-show', params: { id: event.id } }">
+    <div>
+      <h4>{{ event.title }}</h4>
+    </div>
+  </router-link>
 </template>
 
 <script>
 export default {
-  data() {
-    return {
-      title: 'Dev World!'
-    }
-  }
+  props: { event: Object }
 }
 </script>
 
