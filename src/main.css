@@ -1,0 +1,31 @@
+@tailwind prelight;
+@tailwind components;
+@tailwind utilities;
+
+a,
+a:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+/* Mixins */
+
+.text-base {
+  @apply text-black font-sans;
+}
+
+.btn {
+  @apply py-3 px-4 rounded;
+}
+
+.btn-primary {
+  @apply text-white bg-green font-bold;
+}
