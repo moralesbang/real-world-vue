@@ -16,6 +16,10 @@ button {
   cursor: pointer;
 }
 
+.w-400px {
+  width: 400px;
+}
+
 /* Mixins */
 
 .text-base {

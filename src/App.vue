@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="text-base">
     <Navbar />
-    <router-view />
+    <router-view class="flex justify-center mb-10 this-is-the-router-view" />
   </div>
 </template>
 

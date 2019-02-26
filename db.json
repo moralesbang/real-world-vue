@@ -7,7 +7,10 @@
       "time": "10:00",
       "location": "Daytona Beach",
       "description": "Let's clean up this beach.",
-      "organizer": "Adam Jahr",
+      "organizer": {
+        "name": "Adam Jahr",
+        "photo": "https://pbs.twimg.com/profile_images/1062862498041221120/mBX0i5jd_400x400.jpg"
+      },
       "category": "sustainability",
       "attendees": [
         {
@@ -35,7 +38,10 @@
       "time": "12:00",
       "location": "132 N Magnolia Street, Orlando, Florida",
       "description": "We're going to clean up this park.",
-      "organizer": "Adam Jahr",
+      "organizer": {
+        "name": "Adam Jahr",
+        "photo": "https://pbs.twimg.com/profile_images/1062862498041221120/mBX0i5jd_400x400.jpg"
+      },
       "category": "nature",
       "attendees": [
         {
@@ -55,7 +61,10 @@
       "time": "12:00",
       "location": "132 N Magnolia Street, Orlando, Florida",
       "description": "Help animals find new homes.",
-      "organizer": "Gregg Pollack",
+      "organizer": {
+        "name": "Gregg Pollack",
+        "photo": "https://pbs.twimg.com/profile_images/1093883435075162112/Bb85duNJ_400x400.jpg"
+      },
       "category": "animal welfare",
       "attendees": [
         {

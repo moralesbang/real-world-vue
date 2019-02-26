@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-grey-darkest text-white py-4 px-16 flex justify-center">
-    <div class="container flex items-center justify-between">
+  <div class="bg-grey-darkest text-white py-4 mb-10 flex justify-center">
+    <div class="container flex items-center justify-around">
       <router-link to="/" class="flex items-center">
         <Zondicon icon="bolt" class="fill-current h-5 mr-2" />
         <span class="font-semibold text-xl">Real World Events</span>
